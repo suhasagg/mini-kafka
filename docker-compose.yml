@@ -1,0 +1,16 @@
+services:
+  mini-kafka:
+    build: .
+    ports:
+      - "9092:9092"
+    environment:
+      PORT: 9092
+      DATA_DIR: /data
+      BROKERS: 3
+      SEGMENT_MAX_RECORDS: 50
+      MIN_IN_SYNC_REPLICAS: 2
+    volumes:
+      - mini-kafka-data:/data
+
+volumes:
+  mini-kafka-data:

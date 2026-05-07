@@ -1,0 +1,6 @@
+src/test/java/com/example/minikafka/AppendOnlyLogTest.java
+src/test/java/com/example/minikafka/ConsumerGroupCoordinatorTest.java
+src/test/java/com/example/minikafka/FailoverTest.java
+src/test/java/com/example/minikafka/MiniKafkaClusterTest.java
+src/test/java/com/example/minikafka/TestRunner.java
+src/test/java/com/example/minikafka/TestSupport.java
