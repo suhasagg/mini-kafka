@@ -14,7 +14,6 @@ Mini Kafka Java is a compact Java implementation of the most important ideas beh
 - consumer offsets
 - consumer groups
 
-It is intentionally implemented as a single-process multi-broker simulation. This keeps the source code small enough to study while still showing the important distributed-systems tradeoffs.
 
 ---
 
